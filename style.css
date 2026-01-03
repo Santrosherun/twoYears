@@ -54,7 +54,7 @@
   .belt {
     display: flex;
     gap: 15px;
-    margin: 20px 0;
+    margin: 35px 0;
     animation: move linear infinite;
     width: max-content;
     will-change: transform;
@@ -71,12 +71,12 @@
   }
   
   .medium {
-    animation-duration: 20s;
+    animation-duration: 35s;
     animation-name: moveMedium;
   }
   
   .fast {
-    animation-duration: 12s;
+    animation-duration: 20s;
     animation-name: moveFast;
   }
   
@@ -104,10 +104,10 @@
   
   @keyframes moveMedium {
     from {
-      transform: translateX(0) translateZ(0);
+      transform: translateX(-33.333%) translateZ(0);
     }
     to {
-      transform: translateX(-33.333%) translateZ(0);
+      transform: translateX(0) translateZ(0);
     }
   }
   
@@ -136,7 +136,7 @@
 
     .belt {
       gap: 10px;
-      margin: 15px 0;
+      margin: 25px 0;
     }
 
     .belt img {
@@ -164,7 +164,7 @@
 
     .belt {
       gap: 8px;
-      margin: 12px 0;
+      margin: 20px 0;
     }
 
     .belt img {
